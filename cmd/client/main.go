@@ -3,7 +3,7 @@ package main
 import "umang404sharma/GRL/internal/client"
 
 func main() {
-	hostID := "client-1"
+	hostID := "localhost:8001"
 	aggregator := "http://localhost:9000"
 
 	server := client.NewServer(hostID, aggregator)
